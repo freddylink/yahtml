@@ -1,3 +1,4 @@
+@import url('./normalize.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/intro/intro.css');
@@ -20,10 +21,14 @@
     src: url("../fonts/Inter-Thin-BETA.woff2") format("woff2"), url("../fonts/Inter-Thin-BETA.woff") format("woff");
 }
 
-.page {
+.body {
+    background: #2A2C2F;
     max-width: 1440px;
     margin: 0 auto 0;
-    background: #2A2C2F;
+}
+
+.main {
+
 }
 
 *, *::before, *::after {
