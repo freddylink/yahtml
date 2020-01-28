@@ -1,0 +1,62 @@
+.card {
+    margin: 0 auto 80px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.card:last-child {
+    margin-bottom: 105px;
+}
+
+.card__row {
+    display: flex;
+}
+
+.card__row_theme-main {
+    align-items: flex-end;
+    margin-bottom: 54px;
+}
+
+.card__cell {
+    width: 50%;
+}
+
+.card__cell_margin-right {
+    margin-right: 24px;
+}
+
+.card__image {
+    height: 460px;
+    width: 460px;
+}
+
+.card__title {
+    margin: 0 auto;
+    font-size: 72px;
+    line-height: 65px;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.card__paragraph {
+    margin: 0 auto 36px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.card__website_url-heading {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #aaa;
+}
+
+.card__website_url {
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #fff;
+}

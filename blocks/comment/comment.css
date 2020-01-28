@@ -1,0 +1,33 @@
+/* comments */
+
+.comment {
+    width: 382px;
+}
+
+.comment__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 100px;
+}
+
+.comment__quote {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.comments__author {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.comments__image:hover {
+    width: 97px;
+    height: 97px;
+    border-radius: 0;
+}

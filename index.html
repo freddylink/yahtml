@@ -17,143 +17,169 @@
   </header>
   <main class="main">
       <div class="photo-grid">
-        <img class="photo-grid__item" src="./images/Russia/__item-1.png" alt="1"> <!-- некорректные alt -->
-        <img class="photo-grid__item" src="./images/Russia/__item-2.png" alt="2">
-        <img class="photo-grid__item" src="./images/Russia/__item-3.png" alt="3">
-        <img class="photo-grid__item" src="./images/Russia/__item-4.png" alt="4">
-        <img class="photo-grid__item" src="./images/Russia/__item-5.png" alt="5">
-        <img class="photo-grid__item" src="./images/Russia/__item-6.png" alt="6">
-        <img class="photo-grid__item" src="./images/Russia/__item-7.png" alt="7">
-        <img class="photo-grid__item" src="./images/Russia/__item-8.png" alt="8">
-        <img class="photo-grid__item" src="./images/Russia/__item-9.png" alt="9">
-        <img class="photo-grid__item" src="./images/Russia/__item-10.png" alt="10">
-        <img class="photo-grid__item" src="./images/Russia/__item-11.png" alt="11">
-        <img class="photo-grid__item" src="./images/Russia/__item-12.png" alt="12">
-
+        <img class="photo-grid__item" src="images/Russia/__train-window.png" alt="train-window">
+        <img class="photo-grid__item" src="images/Russia/__sky-mountain.png" alt="sky-mountain">
+        <img class="photo-grid__item" src="images/Russia/__wolf-at-field.png" alt="wolf-at-field">
+        <img class="photo-grid__item" src="images/Russia/__forest-and-fog.png" alt="forest-and-fog">
+        <img class="photo-grid__item" src="images/Russia/__ice-and-car.png" alt="ice-and-car">
+        <img class="photo-grid__item" src="images/Russia/__beach-sea-mountain.png" alt="beach-sea-mountain">
+        <img class="photo-grid__item" src="images/Russia/__mountaint-and-snow.png" alt="mountaint-and-snow">
+        <img class="photo-grid__item" src="images/Russia/__road-sign.png" alt="road-sign">
+        <img class="photo-grid__item" src="images/Russia/__brown-mountains.png" alt="brown-mountains">
+        <img class="photo-grid__item" src="images/Russia/__field-and-mountain.png" alt="field-and-mountain">
+        <img class="photo-grid__item" src="images/Russia/__winter-mountain-river.png" alt="winter-mountain-river">
+        <img class="photo-grid__item" src="images/Russia/__fog-mountain.png" alt="fog-mountain">
       </div>
-
-
-      <section class="places">
-        <div class="place"> <!-- лишний div-контейнер, лучше использовать article, семантическая ошибка -->
-          <div class="place__top">
-            <h2 class="place__title">Куршская коса</h2>
-            <div class="place__website">
-              <p class="place__website_url-heading">URL</p>
-              <a class="place__website_url" href="park-kosa.ru">park-kosa.ru</a> <!-- неправильная абсолютная ссылка, правильно //park-kosa.ru  -->
+      <section class="cards mx-margin-size-xl">
+        <div class="card">
+          <div class="card__row card__row_theme-main">
+            <div class="card__cell card__cell_margin-right">
+              <h2 class="card__title">Куршская коса</h2>
+            </div>
+            <div class="card__cell">
+              <div class="card__website">
+                <p class="card__website_url-heading">URL</p>
+                <a class="card__website_url" href="//park-kosa.ru">park-kosa.ru</a>
+              </div>
             </div>
           </div>
-          <div class="place__bottom">
+          <div class="card__row">
+            <div class="card__cell card__cell_margin-right">
+              <img class="card__image" src="./images/cards/kosa.png" alt="kosa.png">
+            </div>
+            <div class="card__cell">
+              <div class="card__text">
+                <p class="card__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
+                  водных
+                  горизонта
+                  — спокойного
+                  Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
+                  Уникальная
+                  природная зона на краю российского анклава.</p>
 
-            <img class="place__image" src="./images/places/kosa.png" alt="kosa.png">
-            <div class="place__text">
-              <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
-                водных
-                горизонта
-                — спокойного
-                Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
-                Уникальная
-                природная зона на краю российского анклава.</p>
+                <p class="card__paragraph">На этом Калининградская область не заканчивается. Для
+                  путешественника и
+                  исследователя там же по соседству — самая западная точка России, Балтийская коса, — и
+                  немецкое
+                  наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету,
+                  окуная в
+                  спокойствие природы и запах стального, прохладного моря.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-              <p class="place__paragraph">На этом Калининградская область не заканчивается. Для
-                путешественника и
-                исследователя там же по соседству — самая западная точка России, Балтийская коса, — и
-                немецкое
-                наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету,
-                окуная в
-                спокойствие природы и запах стального, прохладного моря.</p>
+        <div class="card">
+          <div class="card__row card__row_theme-main">
+            <div class="card__cell card__cell_margin-right">
+              <h2 class="card__title">Кольский</h2>
+            </div>
+            <div class="card__cell">
+              <div class="card__website">
+                <p class="card__website_url-heading">URL</p>
+                <a class="card__website_url" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+                  Geographic</a>
+              </div>
+            </div>
+          </div>
+          <div class="card__row">
+            <div class="card__cell card__cell_margin-right">
+              <img class="card__image"  src="./images/cards/kolsky.png" alt="Кольский">
+            </div>
+            <div class="card__cell">
+              <div class="card__text">
+                <p class="card__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская
+                  тундра,
+                  от
+                  которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым
+                  морем.
+                </p>
+                <p class="card__paragraph">
+                  Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в
+                  Териберке.
+                  Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках
+                  географии.
+                  Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а
+                  от
+                  апатитов
+                  вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться
+                  с
+                  билетом в
+                  Мурманск.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="place">
-          <div class="place__top">
-            <h2 class="place__title">Кольский</h2>
-            <div class="place__website">
-              <p class="place__website_url-heading">URL</p>
-              <a class="place__website_url"
-                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
-                Geographic</a>
+        <div class="card">
+          <div class="card__row card__row_theme-main">
+            <div class="card__cell card__cell_margin-right">
+              <h2 class="card__title">Алтай</h2>
+            </div>
+            <div class="card__cell">
+              <div class="card__website">
+                <p class="card__website_url-heading">URL</p>
+                <a class="card__website_url" href="https://fb.com">Facebook</a>
+              </div>
             </div>
           </div>
-          <div class="place__bottom">
-            <img class="place__image" src="./images/places/kolsky.png" alt="Кольский">
-            <div class="place__text">
-              <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская
-                тундра,
-                от
-                которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым
-                морем.
-              </p>
-              <p class="place__paragraph">
-                Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в
-                Териберке.
-                Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках
-                географии.
-                Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а
-                от
-                апатитов
-                вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться
-                с
-                билетом в
-                Мурманск.
-              </p>
+          <div class="card__row">
+            <div class="card__cell card__cell_margin-right">
+              <img class="card__image" src="./images/cards/altai.png" alt="Алтай">
             </div>
-          </div>
-        </div>
-        <div class="place">
-          <div class="place__top">
-            <h2 class="place__title">Алтай</h2>
-            <div class="place__website">
-              <p class="place__website_url-heading">URL</p>
-              <a class="place__website_url" href="https://fb.com">Facebook</a>
-            </div>
-
-          </div>
-          <div class="place__bottom">
-            <img class="place__image" src="./images/places/altai.png" alt="Алтай">
-            <div class="place__text">
-              <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую
-                очередь
-                из-за
-                гор:
-                если
-                ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А
-                если вы
-                откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест
-                —
-                горным
-                воздухом.</p>
-              <p class="place__paragraph">
-                Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите
-                всё
-                разнообразие
-                местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а
-                на
-                равнинах
-                пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
-              </p>
+            <div class="card__cell">
+              <div class="card__text">
+                <p class="card__paragraph">Алтай — одно из красивейших мест в России. В первую
+                  очередь
+                  из-за
+                  гор:
+                  если
+                  ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А
+                  если вы
+                  откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест
+                  —
+                  горным
+                  воздухом.</p>
+                <p class="card__paragraph">
+                  Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите
+                  всё
+                  разнообразие
+                  местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а
+                  на
+                  равнинах
+                  пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="place">
-          <div class="place__top">
-            <h2 class="place__title">Зимний Байкал</h2>
 
-            <div class="place__website">
-              <p class="place__website_url-heading">URL</p>
-              <a class="place__website_url" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+        <div class="card">
+        <div class="card__row card__row_theme-main">
+          <div class="card__cell card__cell_margin-right">
+            <h2 class="card__title">Зимний Байкал</h2>
+          </div>
+          <div class="card__cell">
+            <div class="card__website">
+              <p class="card__website_url-heading">URL</p>
+              <a class="card__website_url" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
             </div>
           </div>
-          <div class="place__bottom">
-            <img class="place__image" src="./images/places/baikal.png" alt="Алтай">
-            <div class="place__text">
-              <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире.
+        </div>
+        <div class="card__row">
+          <div class="card__cell card__cell_margin-right">
+            <img class="card__image" src="./images/cards/baikal.png" alt="Байкал">
+          </div>
+          <div class="card__cell">
+            <div class="card__text">
+              <p class="card__paragraph">Всем известен Байкал как крупнейшее озеро в мире.
                 Многие
                 также
                 знают,
                 что это
                 самый большой источник пресной воды и одно из красивейших мест в России.</p>
-              <p class="place__paragraph">
+              <p class="card__paragraph">
                 Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
                 скийорингу. Это
                 такой
@@ -164,196 +190,117 @@
                 поставлен
                 мировой рекорд — 197.011 км/ч.
               </p>
-
             </div>
           </div>
         </div>
-        <div class="place">
-          <div class="place__top">
-            <h2 class="place__title">Карелия</h2>
-            <div class="place__website">
-              <p class="place__website_url-heading">URL</p>
-              <a class="place__website_url" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+      </div>
+
+        <div class="card">
+          <div class="card__row card__row_theme-main">
+            <div class="card__cell card__cell_margin-right">
+              <h2 class="card__title">Карелия</h2>
+            </div>
+            <div class="card__cell">
+              <div class="card__website">
+                <p class="card__website_url-heading">URL</p>
+                <a class="card__website_url" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+              </div>
             </div>
           </div>
-          <div class="place__bottom">
-            <img class="place__image" src="./images/places/karelia.png" alt="Карелия">
-            <div class="place__text">
-              <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии:
-                образующая тайгу
-                сибирская
-                лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на
-                30
-                метров — леса
-                карельских национальных парков из-за непроходимых болот никогда не знали
-                топора. Некоторым
-                соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу,
-                видевшему солнце
-                раньше,
-                чем увидал его Иван Грозный. В девственном лесу на сотню километров не
-                встретишь тропы. А на
-                редких тропинках деревья в паре метров от земли помечены медвежьими
-                когтями.
-                Чтобы все
-                знали,
-                кто тут хозяин.</p>
+          <div class="card__row">
+            <div class="card__cell card__cell_margin-right">
+              <img class="card__image" src="./images/cards/karelia.png" alt="Карелия">
+            </div>
+            <div class="card__cell">
+              <div class="card__text">
+                <p class="card__paragraph">Сибирь заканчивается не на Урале, а в Карелии:
+                  образующая тайгу
+                  сибирская
+                  лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на
+                  30
+                  метров — леса
+                  карельских национальных парков из-за непроходимых болот никогда не знали
+                  топора. Некоторым
+                  соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу,
+                  видевшему солнце
+                  раньше,
+                  чем увидал его Иван Грозный. В девственном лесу на сотню километров не
+                  встретишь тропы. А на
+                  редких тропинках деревья в паре метров от земли помечены медвежьими
+                  когтями.
+                  Чтобы все
+                  знали,
+                  кто тут хозяин.</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="video">
-        <h2 class="content-title"> В глубины Земли и в дальний космос</h2>
-        <h3 class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся
+
+      <section class="videos">
+        <h2 class="videos__title"> В глубины Земли <br> и в дальний космос</h2>
+        <h3 class="videos__subtitle">Видео от студии Stereotactic о местах в России, где ведутся
           фундаментальные исследования</h3>
-        <div class="video__container">
-          <div class="video__item">
+        <div class="videos__container">
+          <a href="#" class="video">
             <h4 class="video__title">Colors of Kamchatka</h4>
             <p class="video__subtitle">Director: Pavel Karykhalin</p>
             <img class="video__icon_play" src="./images/__icon_play.png" alt="__icon_play">
-            <img class="video__item-bg" src="./images/video/kamchatka.png" alt="kamchatka.png">
+            <img class="video__image" src="./images/video/kamchatka.png" alt="kamchatka.png">
             <p class="video__duration">6:30</p>
-          </div>
-          <div class="video__item">
+            <div class="video__mask"></div>
+          </a>
+          <a href="#" class="video">
             <h4 class="video__title">Обсерватория | Observatory</h4>
             <p class="video__subtitle">Director: Alexander Khudokon </p>
             <img class="video__icon_play" src="./images/__icon_play.png" alt="__icon_play">
-            <img class="video__item-bg" src="./images/video/observatory.png" alt="observatory.png">
+            <img class="video__image" src="./images/video/observatory.png" alt="observatory.png">
             <p class="video__duration">24:45</p>
-          </div>
-        </div>
-      </section>
-      <section class="additional"> <!-- блок additional наезжает на блок video -->
-        <h2 class="content-title">А также</h2> <!--  название класса не по БЭМ -->
-        <h3 class="content-subtitle">места, рекомендованные нашими фотографами</h3>
-        <div class="additional__container">
-          <div class="additional__item">
-            <h4 class="additional__title">Новороссийская бухта</h4>
-            <p class="additional__subtitle">Главный торговый порт не курорт, но море здесь лазурное, и толпы
-              кораблей на рейде. Залюбуешься.</p>
-            <img class="additional__item-bg" src="./images/additional/nbuhta.png" alt="nbuhta.png">
-          </div>
-          <div class="additional__item">
-            <h4 class="additional__title">Аракульский шихан</h4>
-            <p class="additional__subtitle">Даже для Южного Урала, где красиво везде, это пейзаж выдающийся.
-              И там отсутствует несносная мошкá. </p>
-            <img class="additional__item-bg" src="./images/additional/ashihan.png" alt="ashihan.png">
-          </div>
-          <div class="additional__item">
-            <h4 class="additional__title">Череповец</h4>
-            <p class="additional__subtitle">Громадный металлургический комбинат на водном пути с Волги в
-              Балтийское море. В нём есть своя красота. </p>
-            <img class="additional__item-bg" src="./images/additional/cherepovets.png"
-                 alt="cherepovets.png">
-          </div>
-          <div class="additional__item">
-            <h4 class="additional__title">Никола-Ленивец</h4>
-            <p class="additional__subtitle">Оцените ответ современных художников идолам капища, которое было
-              тут при древнем поселении на реке Угра. </p>
-            <img class="additional__item-bg" src="./images/additional/nlenivets.png" alt="nlenivets.png">
-          </div>
+            <div class="video__mask"></div>
+          </a>
         </div>
       </section>
       <section class="comments">
-        <h2 class="content-title">Фотографы, снимающие Россию</h2>
-        <h3 class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных
+        <h2 class="comments__title">Фотографы, снимающие Россию</h2>
+        <h3 class="comments__subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных
           конкурсах</h3>
         <div class="comments__container">
-          <div class="comments__container_comment">
-            <img class="comments__container_image" src="./images/comments/vliagushkin.png"
+          <div class="comment">
+            <img class="comment__image" src="./images/comments/vliagushkin.png"
                  alt="vliagushkin.png">
-            <h4 class="comments__container_quote">«Если вам кажется, что в России ничего не происходит, то
+            <h4 class="comment__quote">«Если вам кажется, что в России ничего не происходит, то
               просто
               выгляньте “наружу”…»</h4>
-            <p class="comments__container_author">Виктор Лягушкин</p>
+            <p class="comments__author">Виктор Лягушкин</p>
           </div>
-          <div class="comments__container_comment">
-            <img class="comments__container_image" src="./images/comments/ikhafizov.png"
+          <div class="comment">
+            <img class="comment__image" src="./images/comments/ikhafizov.png"
                  alt="ikhafizov.png">
-            <h4 class="comments__container_quote">«Если в город едут туристы — неважно за чем они туда едут:
+            <h4 class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут:
               за
               шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой
               город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</h4>
-            <p class="comments__container_author">Иван Хафизов</p>
+            <p class="comments__author">Иван Хафизов</p>
           </div>
-          <div class="comments__container_comment">
-            <img class="comments__container_image" src="./images/comments/smaksimishin.png"
+          <div class="comment">
+            <img class="comment__image" src="./images/comments/smaksimishin.png"
                  alt="smaksimishin.png">
-            <h4 class="comments__container_quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А
+            <h4 class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А
               когда ты
               покажешь, как им плохо, то ты сволочь и всё очернил.»</h4>
-            <p class="comments__container_author">Сергей Максимишин</p>
+            <p class="comments__author">Сергей Максимишин</p>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <p class="footer__link">Карты</p> <!-- не реализованы ссылки -->
+      <p class="footer__link">Карты</p>
       <p class="footer__link">Погода</p>
       <p class="footer__link">Расписание</p>
       <p class="footer__link">Календарь</p>
       <p class="footer__link">Путешествия</p>
-      <p class="footer__copyright">© 2019.</p>
+      <p class="footer__copyright">© 2019. Роман Прокашев</p>
     </footer>
 </body>
 
 </html>
-
-<!--
-1. Максимальна ширина для классы "page" 1440px, из-за чего на больших мониторах по краям белые полосы
-2. Лучшей практикой является подключение стилей на страницу одни css файлом. Дело в том, что браузер после потроения DOM
-дерева, начинает выстраивать CCSOM - дерево и позиционировать элементы на страницы. В случае, когда загружается несколько
-файлов со стилями браузеру приходится заново рендерить страницу, что влияет на скорость загрузки первого экрана пользователю.
-В данной задаче из-за маленького объема стилей это не существенно, но на больших проектах играет значимую роль.
-3. Задавать цвет google рекомендует в нижнем регистре ( color: #FFFFFF;) => color: #fff
-4. Страница не оптимизирована под мобильные устройства. Основной текст становится нечитабельным.
-5. Отдельные записи можно обернуть в тег <article> внутри <section>
-6. При наведении по ссылке на странице, необходимо использовать :hover {cursor: pointer;} для визуального восприятия ссылки
-7. Из-за того, что normalize.css подключается в последнюю очередь остались стили браузера дефолтные.
-8. Из-за отсутствия viewport сайт не адаптируется под мобильные устройства, в связи с этим оценить поведение элементов
-на небольших разрешениях сложновато. Обычно я, такие работы проверял после исправления этой ошибки исполнителем.
-9. В блоке cover, cover_subtitle при уменьшении разрешения наезжает на основной текст блока
-10. В папке fonts находятся очень много файлов со шрифтом, из которых можно сгенерировать один файл, например с помощью
-сервиса fontssquirell
-11. В записе bottom: 0px - px писать не надо, когда 0
-12.  calc(100% - 2*16pxs) - некорректная формула у .content-subtitle
-13. @import url('../blocks/barentsburg//barentsburg.css'); - стили не подключаются, ошибка в пути
-14.   margin: 0 16px;
-      ....
-      margin-bottom: 72px;
-
-      можно объединить в одну запись margin: 0 16px 72px;
-15.     font-family: Inter;
-        font-size: 16px;
-        font-weight: normal можно объединить в одну запись font: [font-style||font-variant||font-weight] font-size [/line-height] font-family | inherit
-16.   margin: 8px 8px 8px 8px; => margin: 8px
-17. Картинки должны быть оптимизированы, т.е весить как можно меньще, без потери качества. Для загрузки картинок лучше использовать тег picture и сss-свойство object-fit: cover.
-Дело в том, что когда пользователь заходит на страницу с мобильного устройства или планшета ему нет необходимости подгружать ту же самую картинку по размерам, что и на основной версии сайта.
-Тем самым мы экономим пользователю трафик, и ускоряем загрузку сайта на смартфонах и планшетах.
-18. Стили ни минифицированы. Из-за этого происхлжит подгрузка лишних байт информации, содержащих пробелы.
-
-
-Замечания по БЭМ:
-1. Именование comments__container_quote является модификатором элемента, который самостоятельно использовать недопустимо.
-Практически на всей странице допускается такая ошибка.
-2. Нарушается логика именования элементов emblem и emblem-title. emblem-title является частью блока emblem (emblem__title)
-
-Рекомендации и сслыки для студента:
-1. https://github.com/ungear/Front-End-Checklist - использовать чек-лист перед отправкой работы на проверку
-2. https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction?hl=ru - рендеринг страницы и вывод на экран от google
-3. стайлгайд от гугла по html и css  https://google.github.io/styleguide/htmlcssguide.html
-4. Блоки с информацией можно было обернуть в <section></section>, а внутри использовать <article></article>
-<section>
-  <h1>Места</h1>
-    <article>
-      <h2>...</h2>
-      <p>...</p>
-    </article>
-    <article>
-      <h2>...</h2>
-      <p>...</p>
-    </article>
-</section>
-5. Для оптимизации изоюражений можно был бы использовать gulp, например библиотеку gulp-imagemin. Он бы отслеживал изменения стилей, и выполнял
-бы минификацию стилей, и их сборку в один файл. Есть сервисы в интернете: imagecompressor например.
-
--->
