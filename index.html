@@ -5,10 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width">
   <title>Путешествия по России</title>
-
   <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body class="body">
+<body class="page">
   <header class="header">
     <img class="header__logo" src="./images/__logo.png" alt="Россия">
     <div class="header__lang">
@@ -17,37 +16,6 @@
     </div>
   </header>
   <main class="main">
-      <section class="lead">
-        <h1 class="lead__title">Путешествия <br> по России</h1>
-        <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-        <div class="lead__image">
-          <img class="lead__background" src="./images/__image.jpg" alt="trailwindows">
-        </div>
-        <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
-      </section>
-      <section class="intro">
-        <h2 class="intro__title">Чего мы там не видели? </h2>
-        <div class="intro__content-row">
-          <p class="intro__text_1">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
-            планируют провести
-            отпуск в
-            родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с
-            ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
-            красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов.
-            Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила
-            их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
-            интересные места, достойные вашего отпуска.</p>
-        </div>
-        <ul class="intro__text_3">
-          <li><span>Часовых поясов</span>&nbsp;11</li>
-          <li><span>Объектов природного наследия ЮНЕСКО</span>&nbsp;12</li>
-          <li><span>Объектов культурного наследия ЮНЕСКО</span>&nbsp;16</li>
-          <li><span>Природных заповедников</span>&nbsp;105</li>
-          <li><span>Аэропортов</span>&nbsp;241</li>
-        </ul>
-
-      </section>
-
       <div class="photo-grid">
         <img class="photo-grid__item" src="./images/Russia/__item-1.png" alt="1"> <!-- некорректные alt -->
         <img class="photo-grid__item" src="./images/Russia/__item-2.png" alt="2">
@@ -315,52 +283,6 @@
               покажешь, как им плохо, то ты сволочь и всё очернил.»</h4>
             <p class="comments__container_author">Сергей Максимишин</p>
           </div>
-        </div>
-      </section>
-      <section class="cover">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до
-          Байкала на электричках.</h3>
-        <img class="cover__cover-bg" src="images/cover/cover.png" alt="Здесь должно быть красивое фото"> <!-- Описание картинки отражает основную тематику сайта или картинки, alt забыли исправить -->
-      </section>
-      <section class="emblem">
-        <h2 class="emblem-title">Природа на гербах российских городов</h2>
-        <div class="emblem__items">
-          <div class="emblem__item">
-            <img class="emblem__image" src="./images/emblem/vnovgorod.png" alt="Великий Новгород">
-            <h4 class="emblem__city">Великий Новгород</h4>
-          </div>
-          <div class="emblem__item">
-            <img class="emblem__image" src="./images/emblem/rvelikii.png" alt="Ростов Великий">
-            <h4 class="emblem__city">Ростов Великий</h4>
-          </div>
-          <div class="emblem__item">
-            <img class="emblem__image" src="./images/emblem/tambov.png" alt="Тамбов">
-            <h4 class="emblem__city">Тамбов</h4>
-          </div>
-          <div class="emblem__item">
-            <img class="emblem__image" src="./images/emblem/elabuga.png" alt="Елабуга">
-            <h4 class="emblem__city">Елабуга</h4>
-          </div>
-          <div class="emblem__item">
-            <img class="emblem__image" src="./images/emblem/perm.png" alt="Пермь">
-            <h4 class="emblem__city">Пермь</h4>
-          </div>
-        </div>
-      </section>
-      <section class="barentsburg"> <!-- имена классов не должно именоваться с помощью транслитерации -->
-        <h2 class="barentsburg__title">Баренцбург</h2> <!-- контент может поменяться, а имя класса останется -->
-        <h3 class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</h3>
-        <img class="barentsburg__map" src="./images/__map.png" alt="__map.png"> <!--  некорректный alt -->
-        <div class="barentsburg__container">
-          <h4 class="barentsburg__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого
-            западного российского посёлка, который находится на Шпицбергене.</h4>
-          <a class="barentsburg__url">
-            <div class="barentsburg__url-heading">URL</div>
-            <!-- сслылка в сслыке -->
-            <a class="barentsburg__link" href="https://ya.ru">Умереть или родиться здесь практически <!-- в ссылке указан путь https, лучше указывать в таком виде //ya.ru (есть еще, кто работает через http,  а потом переехжает на https) -->
-              невозможно</a>
-          </a>
         </div>
       </section>
     </main>
