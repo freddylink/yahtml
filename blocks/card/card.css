@@ -21,13 +21,26 @@
     width: 50%;
 }
 
+@media (max-width: 767px) {
+    .card {
+        margin: 0 0 s80px;
+    }
+    .card__cell {
+        width: 100%;
+        margin: 0;
+    }
+
+    .card__row {
+        flex-direction: column;
+    }
+}
+
 .card__cell_margin-right {
     margin-right: 24px;
 }
 
 .card__image {
-    height: 460px;
-    width: 460px;
+    background-size: cover;
 }
 
 .card__title {
@@ -60,3 +73,5 @@
     text-decoration-line: underline;
     color: #fff;
 }
+
+

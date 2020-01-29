@@ -16,20 +16,20 @@
     </div>
   </header>
   <main class="main">
-      <div class="photo-grid">
+      <section class="photo-grid">
         <img class="photo-grid__item" src="images/Russia/__train-window.png" alt="train-window">
         <img class="photo-grid__item" src="images/Russia/__sky-mountain.png" alt="sky-mountain">
         <img class="photo-grid__item" src="images/Russia/__wolf-at-field.png" alt="wolf-at-field">
         <img class="photo-grid__item" src="images/Russia/__forest-and-fog.png" alt="forest-and-fog">
         <img class="photo-grid__item" src="images/Russia/__ice-and-car.png" alt="ice-and-car">
         <img class="photo-grid__item" src="images/Russia/__beach-sea-mountain.png" alt="beach-sea-mountain">
-        <img class="photo-grid__item" src="images/Russia/__mountaint-and-snow.png" alt="mountaint-and-snow">
+        <img class="photo-grid__item" src="images/Russia/__mountain-and-snow.png" alt="mountaint-and-snow">
         <img class="photo-grid__item" src="images/Russia/__road-sign.png" alt="road-sign">
         <img class="photo-grid__item" src="images/Russia/__brown-mountains.png" alt="brown-mountains">
         <img class="photo-grid__item" src="images/Russia/__field-and-mountain.png" alt="field-and-mountain">
         <img class="photo-grid__item" src="images/Russia/__winter-mountain-river.png" alt="winter-mountain-river">
         <img class="photo-grid__item" src="images/Russia/__fog-mountain.png" alt="fog-mountain">
-      </div>
+      </section>
       <section class="cards mx-margin-size-xl">
         <div class="card">
           <div class="card__row card__row_theme-main">
@@ -239,24 +239,30 @@
 
       <section class="videos">
         <h2 class="videos__title"> В глубины Земли <br> и в дальний космос</h2>
-        <h3 class="videos__subtitle">Видео от студии Stereotactic о местах в России, где ведутся
-          фундаментальные исследования</h3>
+        <h3 class="videos__subtitle">Видео от студии Stereotactic о местах в России, где
+          <span class="videos__subtitle videos__subtitle_block">ведутся фундаментальные исследования</span></h3>
         <div class="videos__container">
           <a href="#" class="video">
-            <h4 class="video__title">Colors of Kamchatka</h4>
-            <p class="video__subtitle">Director: Pavel Karykhalin</p>
-            <img class="video__icon_play" src="./images/__icon_play.png" alt="__icon_play">
             <img class="video__image" src="./images/video/kamchatka.png" alt="kamchatka.png">
-            <p class="video__duration">6:30</p>
             <div class="video__mask"></div>
+            <div class="video__block">
+              <h4 class="video__title">
+                Colors of Kamchatka
+              </h4>
+              <p class="video__subtitle">Director: Pavel Karykhalin</p>
+              <img class="video__icon_play" src="./images/__icon_play.png" alt="__icon_play">
+              <p class="video__duration">6:30</p>
+            </div>
           </a>
           <a href="#" class="video">
-            <h4 class="video__title">Обсерватория | Observatory</h4>
-            <p class="video__subtitle">Director: Alexander Khudokon </p>
-            <img class="video__icon_play" src="./images/__icon_play.png" alt="__icon_play">
             <img class="video__image" src="./images/video/observatory.png" alt="observatory.png">
-            <p class="video__duration">24:45</p>
             <div class="video__mask"></div>
+            <div class="video__block">
+              <h4 class="video__title">Обсерватория | Observatory</h4>
+              <p class="video__subtitle">Director: Alexander Khudokon </p>
+              <img class="video__icon_play" src="./images/__icon_play.png" alt="__icon_play">
+              <p class="video__duration">24:45</p>
+            </div>
           </a>
         </div>
       </section>
@@ -294,11 +300,13 @@
       </section>
     </main>
     <footer class="footer">
-      <p class="footer__link">Карты</p>
-      <p class="footer__link">Погода</p>
-      <p class="footer__link">Расписание</p>
-      <p class="footer__link">Календарь</p>
-      <p class="footer__link">Путешествия</p>
+      <div class="footer__wrapper">
+        <p class="footer__link">Карты</p>
+        <p class="footer__link">Погода</p>
+        <p class="footer__link">Расписание</p>
+        <p class="footer__link">Календарь</p>
+        <p class="footer__link">Путешествия</p>
+      </div>
       <p class="footer__copyright">© 2019. Роман Прокашев</p>
     </footer>
 </body>

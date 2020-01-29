@@ -2,7 +2,7 @@
     position: relative;
     margin: 0 128px;
     height: 52px;
-    padding: 30px 0 59px;
+    padding: 30px 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -10,14 +10,14 @@
 .header__logo {
     width: 176px;
     height: 52px;
-    left: 128px;
 }
 
 .header__lang {
     font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 24px;
     line-height: 36px;
-    text-align: right;
     color: #fff;
     display: flex;
     align-items: flex-end;
@@ -32,84 +32,40 @@
     margin-right: 18px;
 }
 
+@media (max-width: 1440px) {
+    .header {
+        margin: 0 calc(100vw * .5 - 592px);
+    }
+}
+
 @media (max-width: 1280px) {
     .header {
-        margin: 0;
-        position: relative;
-        height: 52px;
-        padding-top: 10px;
-    }
-    .header__logo {
-        left: 48px;
-    }
-    .header__lang {
-        font-family: Inter;
-        font-size: 24px;
-        line-height: 23px;
-        text-align: right;
-        color: #FFFFFF;
-        display: flex;
-        right: 48px;
+        margin: 0 48px;
     }
 }
 
 @media (max-width: 1024px) {
   .header {
-    margin: 0;
-    position: relative;
-    height: 52px;
-    padding-top: 10px;
+      margin: 0 calc(100vw * .09 - 44.16px);
   }
 }
 
 @media (max-width: 768px) {
     .header {
-        margin: 0 24px;
-        position: relative;
-        height: 52px;
-        padding-top: 10px;
+        margin: 0 calc(100vw * .02 + 8.64px);
     }
-    .header__logo {
-        left: 0px;
-    }
+
     .header__lang {
-        font-family: Inter;
-        font-size: 24px;
-        line-height: 23px;
-        text-align: right;
-        color: #FFFFFF;
-        display: flex;
-        right: 30px;
+        font-size: calc(100vw * .015 + 12.48px);
     }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
     .header {
-        position: relative;
         margin: 0 16px;
-        padding-top: 10px;
     }
-}
 
-@media screen and (max-width: 320px) {
-    .header {
-        position: relative;
-        margin: 0 16px;
-        padding-top: 10px;
-    }
-    .header__logo {
-        position: relative;
-        left: 0;
-        width: 142px;
-        height: 42px;
-    }
     .header__lang {
-        font-family: Inter;
         font-size: 18px;
-        line-height: 17px;
-        text-align: right;
-        color: #FFFFFF;
-        display: flex;
-        right: 0px;
     }
 }
