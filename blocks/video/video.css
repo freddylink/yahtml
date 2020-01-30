@@ -28,6 +28,7 @@
     margin: 0 auto;
     position: relative;
     width: 100%;
+    background-size: cover;
 }
 
 .video__title {
@@ -73,3 +74,38 @@
     color: #fff;
     z-index: 99;
 }
+
+@media (max-width: 1279px) {
+    /*
+    .video__image {
+        max-width: 352px;
+        max-height: 200px;
+    }
+    */
+}
+
+@media screen and (max-width: 767px) {
+    .video__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .video__block {
+        left: 10px;
+    }
+
+    .video:first-child {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+    .videos__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+

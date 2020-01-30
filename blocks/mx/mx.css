@@ -8,7 +8,7 @@
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
     .mx-margin-size-xl  {
         margin: 0 calc(100vw * .39 - 351.2px);
     }
@@ -16,15 +16,10 @@
 
 @media (max-width: 767px) {
     .mx-margin-size-xl  {
-
+        margin: 0;
     }
 }
 
-@media (max-width: 767px) {
-    .mx-margin-size-xl  {
-        margin: 0 16px;
-    }
-}
 
 .mx-margin-size-l {
     margin: 0 148px;

@@ -38,19 +38,19 @@
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
     .header {
         margin: 0 48px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .header {
       margin: 0 calc(100vw * .09 - 44.16px);
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .header {
         margin: 0 calc(100vw * .02 + 8.64px);
     }
@@ -60,7 +60,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374px) {
     .header {
         margin: 0 16px;
     }

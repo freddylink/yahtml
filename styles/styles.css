@@ -12,7 +12,7 @@
 @import url('../fonts/fonts.css');
 
 .page {
-    background: #2A2C2F;
+    background: #2a2c2f;
     max-width: 1440px;
     margin: 0 auto 0;
 }
@@ -25,12 +25,3 @@
     font-family: 'Inter', sans-serif;
 }
 
-@media screen and (max-width: 1280px) {}
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 375px) {}
-
-@media screen and (max-width: 320px) {}

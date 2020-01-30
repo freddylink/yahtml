@@ -11,23 +11,69 @@
 }
 
 .comment__quote {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 14px;
     line-height: 23px;
     font-weight: normal;
     color: #fff;
 }
 
-.comments__author {
-    font-family: Inter;
+.comment__author {
+    font-family: Inter, sans-serif;
     font-size: 14px;
     line-height: 23px;
     color: #fff;
     font-weight: bold;
 }
 
+.comment__author-tablet {
+    display: none;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+
 .comments__image:hover {
     width: 97px;
     height: 97px;
     border-radius: 0;
+}
+
+@media (max-width: 1023px) {
+    .comment {
+        width: 100%;
+    }
+
+    .comment__image {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .comment__quote {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .comment__author-tablet {
+        display: block;
+    }
+
+    .comment__author {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .comment {
+        width: 100%;
+    }
 }

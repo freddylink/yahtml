@@ -16,15 +16,15 @@
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
     .photo-grid {
         margin: 92px 32px 84px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .photo-grid {
-        margin: 92px 5px 0;
+        margin: 92px 5px 50px;
     }
 
     .photo-grid__item {
@@ -32,15 +32,17 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .photo-grid {
+        margin-top: 42px;
     }
     .photo-grid__item {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
     .photo-grid {
+
     }
     .photo-grid__item {
         height: auto;
